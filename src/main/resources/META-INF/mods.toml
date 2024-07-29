@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[39,)"
+license = "MIT"
+
+[[mods]]
+modId = "prefabworldmod"
+version = "1.0.0"
+displayName = "Prefabworldmod"
+authors = ["Jiangbai"]
+description = '''A description of your mod.'''
+credits = "Thanks to all supporters"
+logoFile = "Prefabworldmod-mod.png"
+logoBlur = false
+
+[[dependencies.prefabworldmod]]
+modId = "forge"
+mandatory = true
+versionRange = "[39,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.prefabworldmod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
